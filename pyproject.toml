@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-web-hw-09"
+version = "0.1.0"
+description = ""
+authors = ["olgapasichnyuk <olgapasichnyuk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_web_hw_09"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mongoengine = "^0.27.0"
+bs4 = "^0.0.1"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
